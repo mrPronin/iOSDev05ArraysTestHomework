@@ -15,7 +15,12 @@
 }
 
 - (NSString*) description {
-    return [NSString stringWithFormat:@"name = %@, height = %.2f, weight = %.2f, gender = %@", _name, _height, _weight, (_gender == RITGenderMale) ? @"Male": @"Female"];
+    return [NSString stringWithFormat:
+            @"name = %@, height = %.2f, weight = %.2f, gender = %@",
+            _name,
+            _height,
+            _weight,
+            (_gender == RITGenderMale) ? @"Male": @"Female"];
 }
 
 @end

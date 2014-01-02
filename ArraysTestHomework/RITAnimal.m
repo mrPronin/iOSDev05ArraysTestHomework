@@ -15,7 +15,11 @@
 }
 
 - (NSString*) description {
-    return [NSString stringWithFormat:@"nickname = %@, is pet = %@", _nickname, _isPet?@"YES":@"NO"];
+    return [NSString stringWithFormat:
+            @"nickname = %@, is pet = %@",
+            _nickname,
+            _isPet?@"YES":@"NO"
+            ];
 }
 
 @end
